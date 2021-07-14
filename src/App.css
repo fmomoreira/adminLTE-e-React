@@ -1,0 +1,105 @@
+
+.campo-obrigatorio{
+  color:rgb(177, 31, 31);
+  font-size: 13px;
+  font-style: italic;
+  padding: 5px 10px 5px;
+  margin-top: 2px;
+  border-radius:3px;
+
+}
+.table td, .table th{
+  padding: 6px!important;
+}
+
+label{
+  color: #0000008f!important;
+}
+
+.buttonMecPock{
+  
+  border-radius: 3px!important;
+  -webkit-box-shadow: 4px 4px 5px 0px rgba(50, 50, 50, 0.24)!important;
+  -moz-box-shadow:    4px 4px 5px 0px rgba(50, 50, 50, 0.24)!important;
+  box-shadow:         4px 4px 5px 0px rgba(50, 50, 50, 0.24)!important;
+}
+
+.formstyleContent{
+  width: 100%;
+  background-color: #ffffff;
+  padding: 20px 20px 20px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(5,2,4,0.26);
+  border-radius: 5px 5px 5px 5px;
+}
+
+.zoom {
+  
+  transition: transform 0.2s;
+
+
+}
+
+.zoom:hover {
+  -ms-transform: scale(0.97); /* IE 9 */
+  -webkit-transform: scale(0.97); /* Safari 3-8 */
+  transform: scale(0.97); 
+}
+
+
+
+
+.layout-fixed .main-sidebar {
+  bottom: 0;
+  float: none;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+}
+:not(.layout-fixed) .main-sidebar {
+  height: inherit;
+  min-height: 100%;
+  position: absolute;
+  top: 0;
+}
+.elevation-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,.25),0 10px 10px rgba(0,0,0,.22)!important;
+}
+[class*=sidebar-mecpock] {
+  background-color: #000000;
+}
+
+.sidebar a:hover{
+  color: rgba(255, 255, 255, 0.726)!important;
+}
+
+.btn-salvar{
+  background-color: #145a90;
+  color: white;
+  
+}
+
+
+
+
+.card-title-mecpock:not(.card-outline)>.card-header {
+  background-color: #145a90;
+  color:white;
+}
+
+
+.card-title-mecpock-subtitle:not(.card-outline)>.card-header {
+  background-color: #145a90;
+  color:white;
+}
+
+#botao-menu{
+  border: none!important;
+  background-color: white;
+}
+
+#botao-menu:focus {
+  outline: none!important;
+ 
+}
